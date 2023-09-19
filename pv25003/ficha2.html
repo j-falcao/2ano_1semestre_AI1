@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My page</title>
+
+    <style>
+      .centered{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+    </style>
+
   </head>
   <body>
     <div style="max-width: 850px; border: solid 1px black; margin: auto;">
-      <center>
+      <div class="centered">
         <h1>A Simple Sample Web Page</h1>
         <img src="https://cdn-0.sheldonbrown.com/images/scb_eagle_contact.jpeg" alt="photo">
         <h4>By Sheldon Brown</h4>
         <h2>Demonstrating a few HTML features</h2>
-      </center>
+      </div>
       <p>HTML is really a very simple language. It consists of ordinary text, with commands that are enclosed by "&lt;" and "&gt;" characters, or between an "&" and a ";".</p>
       <p>You don't really need to know much HTML to create a page, because you can copy bits of HTML from other pages that do what you want, then change the text!</p>
       <p>This page shows on the left as it appears in your browser, and the corresponding HTML code appears on the right. The HTML commands are linked to explanations of what they do.</p>
@@ -39,7 +49,7 @@
       
       <h6>This is a size "6" heading</h6>
 
-      <center>
+      <div class="centered">
         <h4>Copyright &copy; 1997, by <a href="https://www.sheldonbrown.com/index.html">Sheldon Brown</a></h4>
 
         If you would like to make a link or bookmark to this page, the URL is:
@@ -47,7 +57,7 @@
         <br> 
 
         https://www.sheldonbrown.com/web_sample1.HTML
-      </center>
+      </div>
     </div>
   </body>
 </html>
