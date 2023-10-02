@@ -1,9 +1,13 @@
+*{
+    font-family: Arial;
+}
+
 .container-centered {
-    width: 40%;
+    width: 30%;
     margin: auto;
-    padding: 15px;
-    border-radius: 5px;
-    background-color: blueviolet;
+    padding: 15px 30px;
+    border-radius: 15px;
+    background-color: rgb(208, 165, 66);
 }
 
 .flexbox-container {
@@ -11,8 +15,20 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 0 15px;
 }
 
 .form-label {
-    
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 7px;
 }
+
+.form-text-input{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
