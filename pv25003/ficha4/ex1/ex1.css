@@ -1,8 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 body {
     margin: 0;
     padding: 0;
 }
-
 
 .bg-main {
     position: fixed;
@@ -20,18 +24,51 @@ body {
     padding: 222px 200px;
 }
 
-.flex-clubes {
+.blue {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 255, 0.73);
+    padding-top: 30px;
+    padding-bottom: 293px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.red {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(202, 0, 0, 0.692);
+    padding-top: 30px;
+    padding-bottom: 293px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.green {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 145, 0, 0.711);
+    padding-top: 30px;
+    padding-bottom: 293px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* margin: 170px 200px; */
 }
 
 .container-clube {
     width: 200px;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 2px;
+    padding: 15px;
+}
+.container-player {
+    width: 100px;
     padding: 15px;
 }
 
@@ -41,9 +78,35 @@ body {
     margin: 20px auto;
 }
 
+.player-img {
+    display: block;
+    max-width: 48px;
+    max-height: 48px;
+    object-fit: contain;
+    margin: 20px auto;
+}
+
+.club-name {
+    scroll-margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial;
+    text-align: center;
+    margin-bottom: 265px;
+}
+
 .nome-clube {
     font-family: Arial;
     font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.nome-player {
+    font-family: Arial;
+    font-size: 14px;
     font-weight: bold;
     text-align: center;
     color: white;
