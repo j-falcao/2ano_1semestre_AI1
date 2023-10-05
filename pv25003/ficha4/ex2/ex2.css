@@ -1,0 +1,51 @@
+* {
+    font-family: Arial;
+}
+
+.container {
+    display: table;
+    width: 450px;
+    padding: 20px;
+    border: 3px solid rgb(171, 0, 0);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: columns;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label {
+    display: table;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input{
+    padding: 5px;
+    border-left: 2px double green;
+}
+
+.input-text {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.divider-img{
+    width: 50px;
+}
+
+.pattern {
+    color: rgb(171, 0, 145);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.pattern-div {
+    padding: 7px;
+    border-right: 2px double green;
+}
