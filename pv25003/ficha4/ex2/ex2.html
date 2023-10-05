@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="ex2.css">
     <title>Testes de regex</title>
   </head>
-  <body>
-    <div style="justify-content: center;">
+  <body style="background-color: rgb(38, 37, 39);">
+    <div style="display: flex; justify-content: center;">
       <form>
         <div class="container">
           <div class="flex">
@@ -68,10 +68,10 @@
           <div class="flex">
             <div class="input">
               <label class="label" for="apenas-15">Apenas 15</label>
-              <input class="input-text" id="apenas-15" name="apenas-15" type="text" placeholder="max 15 maiusculas" pattern="[A-Z]{,15}">
+              <input class="input-text" id="apenas-15" name="apenas-15" type="text" placeholder="max 15 maiusculas" pattern="[A-Z]{1,15}">
             </div>
             <img class="divider-img" src=".\\imagens\\divider.png">
-            <div class="pattern-div">Pattern: <span class="pattern">[A-Z]{,15}</span></div>
+            <div class="pattern-div">Pattern: <span class="pattern">[A-Z]{1,15}</span></div>
           </div>
         </div>
 
@@ -79,15 +79,18 @@
           <div class="flex">
             <div class="input">
               <label class="label" for="telemovel">telemovel</label>
-              <input class="input-text" id="telemovel" name="telemovel" type="text" placeholder="xxx-xxx-xxx ou xxx xxx xxx" pattern="\d{3}[-\s]\d{3}[-\s]\d{3}">
+              <input class="input-text" id="telemovel" name="telemovel" type="text" placeholder="xxx-xxx-xxx ou xxx xxx xxx" pattern="[0-9]{3}[- ][0-9]{3}[- ][0-9]{3}">
             </div>
             <img class="divider-img" src=".\\imagens\\divider.png">
             <div class="pattern-div">Pattern: <span class="pattern">\d{3}[-\s]\d{3}[-\s]\d{3}</span></div>
           </div>
         </div>
 
-        <input type="submit">
-      
+        <div class="flex" style="margin: 0 100px;">
+          <input type="reset" value="Limpar" class="button-48" role="button">
+          <input type="submit" value="Enviar" class="button-82-front text">
+        </div>
+
       </form>
     </div>
 
