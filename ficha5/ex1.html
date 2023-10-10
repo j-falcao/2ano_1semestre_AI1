@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mim</title>
+
+  <style>
+    * {
+      font-family: Arial;
+    }
+
+    .main-box {
+      margin-top: 20px;
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      max-width: 70%;
+      max-height: 70%;
+      box-shadow: 0 5px 10px 15px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .imagem-comtainer {
+      max-width: 50%;
+      padding-right: 10px;
+      flex: 1;
+    }
+
+    .hobbie-title {
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    .hobbie-description {
+      font-size: 13px;
+      margin-bottom: 5px;
+    }
+
+    .centered {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    table,
+    th,
+    tr,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    th {
+      padding: 1px 10px;
+      width: 100px;
+    }
+
+    td {
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body>
+  <span id="topo"></span>
+  <h2 style="font-family: Arial;">Joao Falcao</h2>
+  <div class="main-box">
+    <div class="imagem-comtainer"><img src="./imagens/Gigachad.webp"></div>
+  </div>
+
+
+  <a href="https://www.instagram.com" target="_blank">
+    <img src="./imagens/Instagram_logo_2022.svg.webp" style="display: block; width: 64px; margin-bottom: 15px;">
+  </a>
+  <a href="https://www.facebook.com" target="_blank">
+    <img src="./imagens/fb_icon_325x325.png" style="display: block; width: 64px; margin-bottom: 15px;">
+  </a>
+  <a href="https://www.twitter.com" target="_blank">
+    <img src="./imagens/twitter-icon-free-png.webp" style="display: block; width: 64px; margin-bottom: 15px;">
+  </a>
+
+  <h2 style="margin-top: 80px;">Description</h2>
+  <div style="font-size: 18px; font-family: Arial; text-justify: inter-cluster;">
+    Lorem ipsum dolor sit amet consectetur <b>adipisicing</b> elit. Dolorem laborum nobis odio est eveniet tempora
+    maxime accusamus sed, ratione sequi molestias maiores enim rerum. Illo ea facere consectetur excepturi nesciunt!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse sit cupiditate dolorem, officia a quaerat
+    reprehenderit, rem eaque, amet quos ullam dolores eos pariatur? Beatae quibusdam quia cupiditate dolor modi!<br>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse sit cupiditate <b>dolorem</b>, officia a quaerat
+    reprehenderit, rem eaque, amet quos ullam dolores eos pariatur? Beatae quibusdam quia cupiditate dolor modi!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse sit cupiditate dolorem, officia a quaerat
+    reprehenderit, rem eaque, amet quos ullam dolores eos pariatur? Beatae quibusdam quia cupiditate dolor modi!<br>
+    Lorem ipsum dolor sit amet, consectetur adipisicing <b>elit</b>. Esse sit cupiditate dolorem, officia a quaerat
+    reprehenderit, rem eaque, amet quos ullam dolores eos pariatur? Beatae quibusdam quia cupiditate dolor modi!<br>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse sit cupiditate dolorem, officia a quaerat
+    reprehenderit, rem eaque, amet quos ullam dolores eos pariatur? Beatae quibusdam quia cupiditate dolor modi!
+  </div>
+
+
+  <h2 style="margin-top: 80px;">My Hobbies</h2>
+  <ul>
+    <li class="hobbie-title">beber</li>
+    <div class="hobbie-description">beber e fixe</div>
+    <li class="hobbie-title">comer:</li>
+    <div class="hobbie-description">comer e fixe</div>
+    <li class="hobbie-title">ouvir musica:</li>
+    <div class="hobbie-description">ouvir musica e fixe</div>
+    <li class="hobbie-title">dormir:</li>
+    <div class="hobbie-description">dormir e fixe</div>
+    <li class="hobbie-title">acordar:</li>
+    <div class="hobbie-description">acordar e fixe</div>
+  </ul>
+
+
+  <table>
+    <tr>
+      <th>hora/dia</th>
+      <th><b>Segunda</b></th>
+      <th><b>Terça</b></th>
+      <th><b>Quarta</b></th>
+      <th><b>Quinta</b></th>
+      <th><b>Sexta</b></th>
+    </tr>
+    <tr>
+      <th>8:00</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>8:30</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">9:00</th>
+      <td rowspan="4"><a href="https://moodle.estgv.ipv.pt/course/view.php?id=6455">POO - TP</a><br>(L8/FM)</td>
+      <td rowspan="4"><a href="https://moodle.estgv.ipv.pt/course/view.php?id=6110">AS - P</a><br>(L8/)</td>
+      <td rowspan="6"><a href="https://moodle.estgv.ipv.pt/course/view.php?id=6489">SO - P</a><br>(LR1/)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>9:30</th>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>10:00</th>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>10:30</th>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">11:00</th>
+      <td rowspan="4"><a href="https://moodle.estgv.ipv.pt/course/view.php?id=6456">AI1 - P</a><br>(L8/SA)</td>
+      <td rowspan="4"><a href="https://moodle.estgv.ipv.pt/course/view.php?id=6456">AI1 - P</a><br>(L5/SA)</td>
+      <td rowspan="4"><a href="https://moodle.estgv.ipv.pt/course/view.php?id=6597">U - P</a><br>(L8/RPD)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>11:30</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>12:00</th>
+      <td rowspan="3"><a href="https://moodle.estgv.ipv.pt/course/view.php?id=6489">SO - T</a><br>(A2/)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>12:30</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>13:00</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>13:30</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>14:00</th>
+      <td rowspan="4"><a href="https://moodle.estgv.ipv.pt/course/view.php?id=6455">POO - P</a><br>(L3/FM)</td>
+      <td></td>
+      <td></td>
+      <td rowspan="3"><a href="https://moodle.estgv.ipv.pt/course/view.php?id=6110">AS - T</a><br>(A2/)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>14:30</th>
+      <td></td>
+      <td rowspan="3"><a href="https://moodle.estgv.ipv.pt/course/view.php?id=6456">AI1 - T</a><br>(A2/SA)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>15:00</th>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>15:30</th>
+      <td></td>
+      <td rowspan="3"><a href="https://moodle.estgv.ipv.pt/course/view.php?id=6597">U - T</a><br>(A2/RPD)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>16:00</th>
+      <td rowspan="4"><a href="https://moodle.estgv.ipv.pt/course/view.php?id=6110">AS - TP</a><br>(L8/)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>16:30</th>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>17:00</th>
+      <td></td>
+      <td></td>
+      <td rowspan="3"><a href="https://moodle.estgv.ipv.pt/course/view.php?id=6455">POO - T</a><br>(A2/FM)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>17:30</th>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>18:00</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>18:30</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+
+
+  <div style="margin-top: 100px; display: flex; justify-content: flex-end;">
+    <a href="ex1.html#topo">
+      <img src="./imagens/setaCima.png" style="width: 50px;">
+    </a>
+  </div>
+</body>
+
+</html>
