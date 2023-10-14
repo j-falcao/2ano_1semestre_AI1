@@ -10,6 +10,39 @@
     * {
       font-family: Arial;
     }
+    
+    .centered {
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    .name {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .img-container {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .img {
+      min-width: 100px;
+      min-height: 100px;
+      text-align: center;
+    }
+
+    .flex-row-evenly {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+
+    .logo {
+      max-width: 64px;
+    }
 
     .hobbie-title {
       font-size: 15px;
@@ -21,10 +54,6 @@
       margin-bottom: 5px;
     }
 
-    .centered {
-      display: flex;
-      justify-content: space-around;
-    }
 
     table,
     th,
@@ -48,19 +77,27 @@
 
 <body>
   <a id="topo"></a>
-  <h2 style="font-family: Arial;">João Falcão</h2>
-  <img src="./imagens/Gigachad.webp">
 
+  <div class="centered">
 
-  <a href="https://www.instagram.com" target="_blank">
-    <img src="./imagens/Instagram_logo_2022.svg.webp" style="display: block; width: 64px; margin-bottom: 15px;">
-  </a>
-  <a href="https://www.facebook.com" target="_blank">
-    <img src="./imagens/fb_icon_325x325.png" style="display: block; width: 64px; margin-bottom: 15px;">
-  </a>
-  <a href="https://www.twitter.com" target="_blank">
-    <img src="./imagens/twitter-icon-free-png.webp" style="display: block; width: 64px; margin-bottom: 15px;">
-  </a>
+    <h2 class="name">João Falcão</h2>
+
+    <div class="img-container"><img class="img" src="./imagens/eu.png"></div>
+
+    <div class="flex-row-evenly">
+      <a href="https://github.com/j-falcao2002" target="_blank">
+        <img class="logo" src="./imagens/github-mark.png">
+      </a>
+      <a href="https://www.reddit.com" target="_blank">
+        <img class="logo" src="./imagens/reddit.png">
+      </a>
+      <a href="https://www.linkedin.com/" target="_blank">
+        <img class="logo" src="./imagens/linkedin.png">
+      </a>
+    </div>
+
+  </div>
+
 
   <h2 style="margin-top: 80px;">Description</h2>
   <div style="font-size: 18px; font-family: Arial; text-justify: inter-cluster;">
