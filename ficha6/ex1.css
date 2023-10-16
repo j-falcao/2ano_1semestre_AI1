@@ -1,0 +1,27 @@
+body {
+    background-color: #E7EBF0;
+}
+
+h1 {
+    color: orange;
+    background-color: blue;
+}
+
+.explicar-css {
+    font-family: Verdana, Arial;
+    font-size: 16px;
+    background-color: lightblue;
+}
+
+.explicar-css-destaque {
+    font-weight: bold;
+    background-color: yellow;
+}
+
+.explicar-bgimg {
+    font-family: serif, Arial;
+    font-size: 12px;
+    text-decoration: underline;
+    font-style: italic;
+    background-image: linear-gradient(to right, white, grey);
+}
