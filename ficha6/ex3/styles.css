@@ -1,5 +1,13 @@
 body {
-    background-color: #F4F4F7;
+    background-color: grey;
+}
+
+.imagem-fundo {
+    background-image: url("imagens/MK12356_BeyondTellerand_Ethan_Marcotte.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-position: bottom left;
+    background-size: 33% auto;
 }
 
 .programador-img{
@@ -7,4 +15,17 @@ body {
     top: 0;
     left: 0;
     width: 33%;
+}
+
+.nome-programador {
+    color: white;
+}
+
+.texto-bibliografico {
+    font-family: Verdana, Arial;
+    font-size: 1.5em;
+}
+
+.shift-left {
+    margin-left: 35%;
 }
