@@ -25,3 +25,23 @@ h1 {
     font-style: italic;
     background-image: linear-gradient(to right, white, grey);
 }
+
+.ul1 {
+    display: inline-block;
+    list-style-type: none;
+    background-color: #F4F5F4;
+    padding: 20px;
+    border: 1px solid #F69F5B;
+}
+
+/* .li1 {
+    width: 200px;
+    font-family: Arial;
+    padding: 10px 0;
+} */
+
+.ul1 > li {
+    width: 200px;
+    font-family: Arial;
+    padding: 0 10px;
+}
