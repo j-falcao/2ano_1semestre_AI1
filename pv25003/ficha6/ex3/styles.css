@@ -3,18 +3,13 @@ body {
 }
 
 .imagem-fundo {
+    width: 33%;
+    height: 100vh;
+
     background-image: url("imagens/MK12356_BeyondTellerand_Ethan_Marcotte.jpg");
     background-repeat: no-repeat;
-    background-position: fixed;
-    background-position: bottom left;
-    background-size: 33% auto;
-}
-
-.programador-img{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 33%;
+    background-position: center center;
+    background-size: cover;
 }
 
 .nome-programador {
@@ -26,6 +21,7 @@ body {
     font-size: 1.5em;
 }
 
-.shift-left {
-    margin-left: 35%;
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
