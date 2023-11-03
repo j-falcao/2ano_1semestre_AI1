@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
   <title>A minha Pagina</title>
 </head>
@@ -12,15 +15,16 @@
     <div class="mid-header">
       <div class="mid-header-name">João Falcão</div>
       <div class="mid-header-desc">homepage</div>
+      <nav class="navbar-header"></nav>
     </div>
   </header>
 
-  <nav class="navbar-header"></nav>
+  
 
   <main>
     <section>
       <div class="QuemSou-info">
-        <div class="section-title">Quem Sou</div>
+        <h1 class="section-title">Quem Sou</h1>
         <p><b>Nome:</b> João Falcão</p>
         <p><b>Idade:</b> 21</p>
         <p><b>Atividade:</b> estudante</p>
@@ -34,11 +38,24 @@
     <hr class="divisor">
 
     <section>
-      <div class="section-title">Contacte-me</div>
+      <h1 class="section-title">Contacte-me</h1>
       <form class="contacte-form">
         <fieldset>
           <legend>A sua mensagem: </legend>
-          <label for="name">Name:</label>
+          <div>
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" class="input-text">
+          </div>
+          <div style="margin: 10px 0;">
+            <label for="email">Email:</label>
+            <input id="email" type="text" class="input-text">
+          </div>
+          <div style="height: 60px;">
+            <label for="message">Message:</label>
+            <input id="message" type="text" class="input-text" style="height: 90%;">
+          </div>
+
+          <button type="submit" class="button-submit-form">Enviar</button>
         </fieldset>
 
       </form>
@@ -47,7 +64,8 @@
     <hr class="divisor">
 
     <section>
-      <div class="section-title">Os meus links favoritos:</div>
+
+      <h1 class="section-title">Os meus links favoritos:</h1>
       <ul class="fav-link-list">
         <li>Youtube</li>
         <li>ESTGV</li>

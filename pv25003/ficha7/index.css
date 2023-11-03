@@ -47,18 +47,21 @@ main {
 }
 
 .section-title {
-    margin: 10px 45px;
+    margin: 0;
+    margin-left: 45px;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .QuemSou-info {
-    padding: 25px 45px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 45px;
     float: left;
 }
 
 .QuemSou-info > .section-title {
-    margin: 0;
+    margin-left: 0;
 }
 
 .QuemSou-info > p {
@@ -66,8 +69,9 @@ main {
 }
 
 .QuemSou-img-container {
-    padding: 25px 45px;
     padding-bottom: 20px;
+    padding-top: 30px;
+    padding-right: 45px;
     float: right;
 }
 
@@ -78,20 +82,45 @@ main {
 
 .divisor{
     width: 95%;
-    margin: auto;
     background-color: #2d6975;
     height: 3px;
+    margin: 15px auto;
+}
+
+fieldset {
+    border: 1px solid black;
 }
 
 .contacte-form {
     padding: 0 45px;
-    padding-bottom: 15px;
+}
+
+.label {
+    float: left;
+    margin-left: 10px;
+}
+
+.input-text {
+    float: right;
+    width: 75%;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.button-submit-form {
+    float: right;
+    background-color: #4fcce3;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+    padding: 3px 10px;
 }
 
 .fav-link-list {
     margin: 0;
     margin-left: 45px;
-    padding-bottom: 25px; 
+    padding-bottom: 20px; 
+    padding-top: 10px;
 }
 
 footer {
