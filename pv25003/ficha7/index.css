@@ -37,12 +37,29 @@ header {
 }
 
 .navbar-header {
+    position: relative;
+    top: 28px;
+    margin-left: 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
     background-color: #2d6975;
+    color: white;
+    width: 246px;
+}
+
+.navbar-header a {
+    display: inline;
+    text-decoration: none;
+}
+
+.navbar-header a:visited{
+    color: white;
 }
 
 main {
     background-color: white;
     margin: auto;
+    padding-top: 30px;
     width: 60%;
 }
 
@@ -54,9 +71,7 @@ main {
 }
 
 .QuemSou-info {
-    padding-bottom: 20px;
-    padding-top: 30px;
-    padding-left: 45px;
+    margin-left: 45px;
     float: left;
 }
 
@@ -69,15 +84,15 @@ main {
 }
 
 .QuemSou-img-container {
-    padding-bottom: 20px;
-    padding-top: 30px;
-    padding-right: 45px;
+    margin-right: 45px;
+    padding-bottom: 10px;
     float: right;
 }
 
 .QuemSou-img-container > img {
-    border: 1px solid black;
     width: 110px;
+    padding: 10px;
+    border: 1px solid black;
 }
 
 .divisor{
