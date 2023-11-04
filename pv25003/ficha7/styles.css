@@ -56,6 +56,7 @@ a {
 }
 
 .navbar-header a {
+    color: white;
     text-decoration: none;   
 }
 
@@ -168,6 +169,14 @@ footer {
     color: white;
 }
 
+footer a {
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+
 .middle-footer {
     padding: 10px;
     margin: auto;
@@ -175,7 +184,5 @@ footer {
 }
 
 
-footer a:visited {
-    color: white;
-}
+
 
