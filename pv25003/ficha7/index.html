@@ -16,16 +16,14 @@
       <div class="mid-header-name">João Falcão</div>
       <div class="mid-header-desc">homepage</div>
       <div class="navbar-header">
-        <a href="https://google.com">Quem sou</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
-        <a href="https://google.com">Contacte-me</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
-        <a href="https://google.com">Links</a>
+        <a href="#quemsou">Quem sou</a> | <a href="#contactos">Contacte-me</a> | <a href="#links">Links</a>
       </div>
     </div>
   </header>
   
 
   <main>
-    <section>
+    <section id="quemsou">
       <div class="QuemSou-info">
         <h1 class="section-title">Quem Sou</h1>
         <p><b>Nome:</b> João Falcão</p>
@@ -40,22 +38,22 @@
 
     <hr class="divisor">
 
-    <section>
+    <section id="contactos">
       <h1 class="section-title">Contacte-me</h1>
       <form>
         <fieldset>
           <legend>A sua mensagem </legend>
           <div>
             <label for="nome">Nome:</label>
-            <input id="nome" type="text" class="input-text">
+            <input id="nome" type="text" class="input-text" required>
           </div>
           <div style="margin: 20px 0;">
             <label for="email">Email:</label>
-            <input id="email" type="text" class="input-text">
+            <input id="email" type="text" class="input-text" pattern="/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/" required>
           </div>
           <div style="height: 100px;">
-            <label for="message">Message:</label>
-            <input id="message" type="text" class="input-text" style="height: 90%;">
+            <label for="message">Menssagem:</label>
+            <textarea id="message" class="input-text" style="height: 90px; resize: none;" required></textarea>
           </div>
           <button type="submit" class="button-submit-form">Enviar</button>
         </fieldset>
@@ -64,7 +62,7 @@
 
     <hr class="divisor">
 
-    <section>
+    <section id="links">
       <h1 class="section-title">Os meus links favoritos:</h1>
       <ul class="fav-link-list">
         <li>Youtube</li>
@@ -79,7 +77,7 @@
 
   <footer>
     <div class="middle-footer">
-      <a href="https://google.com">Quem sou</a> &nbsp; | &nbsp; <a href="https://google.com">Contacte-me</a> &nbsp; | &nbsp; <a href="https://google.com">Links</a>
+      <a href="#quemsou">Quem sou</a> | <a href="#contactos">Contacte-me</a> | <a href="#links">Links</a>
     </div>
   </footer>
 
