@@ -42,7 +42,7 @@ body {
 }
 
 .main-page > .center > .btn-play:hover {
-  background-color: #065dd8;
+  background-color: #00a816;
   transform: translateY(-2px);
 }
 
@@ -68,3 +68,4 @@ body {
     transition-duration: 0.1s;
 }
    
+

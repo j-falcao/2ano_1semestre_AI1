@@ -1,0 +1,52 @@
+/* GAME.HTML */
+body {
+    background-color: rgb(127, 223, 255);
+}
+
+/* #notification {
+    height: 20px;
+    margin-top: 150px;
+    text-align: center;
+} */
+
+.question-header {
+    padding: 0 45px;
+}
+
+.arrow-img {
+    cursor: pointer;
+    width: 10px;
+}
+
+.quiz-section {
+    margin-top: 240px; 
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid rgb(59, 157, 223);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#pergunta {
+    display: inline-block;
+    padding: 20px 65px;
+}
+
+.resposta {
+    padding: 20px 50px;
+}
+
+.right {
+    background-color: greenyellow;
+}
+
+.wrong {
+    background-color: rgb(255, 44, 44);
+}
+
