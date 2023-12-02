@@ -2,7 +2,7 @@ let {questions, currQuestion} = getData();
 render();
 
 function getData() {
-    return {questions: getQuestions(), currQuestion: 0}
+    return {questions: getQuestions(), currQuestion: 0, user: getUser()}
 }
 
 function getQuestions() {
@@ -39,6 +39,14 @@ function getQuestions() {
             guess: undefined
         },
     ];
+}
+
+function getUser() {
+    const userLocal = localStorage.getItem("user");
+    return userLocal ? userLocal : {
+        id: -1,
+        points: 0
+    }
 }
 
 function guess(guess){
