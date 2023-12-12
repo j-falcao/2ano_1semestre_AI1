@@ -1,4 +1,4 @@
-let {questions, currQuestion} = getData();
+let {questions, currQuestion, user} = getData();
 render();
 
 function getData() {
