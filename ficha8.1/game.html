@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilosGame.css">
+  <title>QUIZ</title>
+</head>
+
+<body>
+  
+  <div class="navbar">
+    <div class="center">
+      <div class="navbar-left">
+        <button id="btn-options" class="btn"><img src="imagens/settings-icon.png"></button>
+        <button id="btn-mute" class="btn"><img src="imagens/volume-unmuted-icon.png"></button>
+      </div>
+      <div id="notification" class="navbar-middle"></div>
+      <div id="points" class="navbar-right">Points: 32</div>
+    </div>
+  </div>
+  
+  <div class="center">
+    <div id="quiz-section">
+      <div class="center">
+        <div id="question-header">
+          <img class="arrow-img" id="leftArrow" src="imagens/leftArrow.png">
+          <div id="pergunta">Pergunta teste?</div>
+          <img class="arrow-img" id="rightArrow" src="imagens/rightArrow.png">
+        </div>
+      <div id="respostas"></div>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+
+</html>

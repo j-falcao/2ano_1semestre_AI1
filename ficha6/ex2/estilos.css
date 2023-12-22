@@ -1,0 +1,47 @@
+body {
+    background-color: #E7EBF0;
+}
+
+h1 {
+    color: orange;
+    background-color: blue;
+}
+
+.explicar-css {
+    font-family: Verdana, Arial;
+    font-size: 16px;
+    background-color: lightblue;
+}
+
+.explicar-css-destaque {
+    font-weight: bold;
+    background-color: yellow;
+}
+
+.explicar-bgimg {
+    font-family: serif, Arial;
+    font-size: 12px;
+    text-decoration: underline;
+    font-style: italic;
+    background-image: linear-gradient(to right, white, grey);
+}
+
+.ul1 {
+    display: inline-block;
+    list-style-type: none;
+    background-color: #F4F5F4;
+    padding: 20px;
+    border: 1px solid #F69F5B;
+}
+
+/* .li1 {
+    width: 200px;
+    font-family: Arial;
+    padding: 10px 0;
+} */
+
+.ul1 > li {
+    width: 200px;
+    font-family: Arial;
+    padding: 0 10px;
+}
