@@ -12,6 +12,7 @@ class StateButton_comp extends React.Component {
     handleStateChange() {
         console.log(this)
         console.log(this.myVar)
+        this.setState({ estado: true });
     }
 
     render() {
@@ -22,9 +23,10 @@ class StateButton_comp extends React.Component {
         // VISIBLE
         return React.createElement('div', null,
             React.createElement('h1', null, status),
-            // React.createElement('button', { onClick: this.handleStateChange }, 'Muda de Estado') // only work if bound 
-            // React.createElement('button', { onClick: () => {this.handleStateChange()} }, 'Muda de Estado') // always works
-            React.createElement('button', { onClick: () => { this.handleStateChange.bind(this); this.handleStateChange()} }, 'Muda de Estado') // of course it always works 
+            // React.createElement('button', { onClick: this.handleStateChange }, 'Muda de Estado') // only work if bound in the constructor
+            // React.createElement('button', { onClick: function() {this.handleStateChange()} }, 'Muda de Estado') // never works
+            React.createElement('button', { onClick: () => {this.handleStateChange()} }, 'Muda de Estado') // always works (ecause the closure caused by the arrow function. This allows the correct this to be used inside the handler)
+            // React.createElement('button', { onClick: () => { this.handleStateChange.bind(this); this.handleStateChange()} }, 'Muda de Estado') // of course it always works 
         );
     }
 }
