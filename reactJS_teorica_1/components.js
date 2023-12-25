@@ -12,7 +12,7 @@ class StateButton_comp extends React.Component {
     handleStateChange() {
         console.log(this)
         console.log(this.myVar)
-        this.setState({ estado: true });
+        this.setState({ estado: !this.state.estado });
     }
 
     render() {
